@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style type="text/css">
+    :root {
+      --page-margin: .5in;
+      --column-margin: 1rem;
+      --letter-height: 11in;
+      --letter-width: 8.5in;
+      --header-height: 1in;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    .page {
+      width: var(--letter-width);
+      height: var(--letter-height);
+      background-color: white;
+      /* assume that the printer will do our margins */
+    }
+
+    .header {
+      width: var(--letter-width);
+      height: var(--header-height);
+      background-color: #222222;
+      position: absolute;
+    }
+
+    .name {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2rem;
+      padding: .75rem 1.5rem;
+      border: 5px solid white;
+    }
+
+    div.row {
+      display: flex;
+      height: calc(100% - var(--header-height));
+      padding-top: var(--header-height);
+    }
+
+    div.column-left {
+      background-color: rgb(204, 215, 203);
+      flex: 1;
+      padding-top: var(--column-margin);
+      padding-left: var(--page-margin);
+      padding-right: var(--column-margin);
+      padding-bottom: var(--page-margin);
+    }
+
+    div.column-right {
+      background-color: white;
+      flex: 2;
+      padding-top: var(--column-margin);
+      padding-left: var(--column-margin);
+      padding-right: var(--page-margin);
+      padding-bottom: var(--page-margin);
+    }
+
+    p.title {
+      text-transform: uppercase;
+      position: relative;
+      left: -.5rem;
+      margin-top: 1rem;
+      font-weight: 500;
+      font-style: oblique;
+    }
+
+    p,
+    li,
+    ul {
+      margin-block-end: 0;
+      margin-block-start: 0;
+      font-weight: 300;
+    }
+
+    ul {
+      padding-inline-start: 1rem;
+    }
+
+    .sub-title{
+      font-weight: 400;
+      text-decoration: underline;
+    }
+
+    .slight-emphasis{
+      font-weight: 400;
+    }
+
+    div.v-space {
+      height: .75rem;
+    }
+
+    div.custom-container {
+      display: flex;
+    }
+
+    div.custom-left {
+      flex: 2;
+    }
+
+    div.custom-right {
+      flex: 3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="name">ELIJAH YAP</div>
+    </div>
+    <div class="row">
+      <div class="column-left">
+        <p class="title">Contact</p>
+        <a href="elijah.ming.loong.yap@gmail.com">elijah.ming.loong.yap@gmail.com</a>
+        <a href="yap@usc.edu">yap@usc.edu</a>
+        <p>+1 (213) 275 6438</p>
+
+        <p class="title">Education</p>
+        <p class="sub-title">University of Southern California</p>
+        <p>Viterbi School</p>
+        <p>Bachelor of Science</p>
+        <p>Computer Engineering & Computer Science</p>
+        <p>Expected [May 2023]</p>
+        <p>4.0/4.0 GPA</p>
+        
+        <div class="v-space"></div>
+        <p><span class="sub-title">National Service</span> (required)</p>
+        <p>Singapore Armed Forces (SAF)</p>
+        <p>[2018 - 2019]</p>
+        
+        <div class="v-space"></div>
+        <p class="sub-title">NUS High School</p>
+        <p>Math & Physics Honors</p>
+        <p>4.6/5.0 GPA</p>
+        <p>Graduated [Dec 2017]</p>
+
+        <p class="title">Profile</p>
+        <a href="github.com/Ipskie/">github.com/Ipskie/</a>
+        <a href="https://www.linkedin.com/in/elijah-yap-26b639156/">linkedin.com/in/elijah-yap-26b639156/</a>
+      </div>
+      <div class="column-right">
+        <p class="title">Skills</p>
+        <p>Microsoft Office (Excel, Word, PowerPoint)</p>
+        <p>Web Development</p>
+        <ul>
+          <li>Python, Django, Angular</li>
+          <li>CSS, SCSS</li>
+          <li>JavaScript (jQuery), ajax</li>
+        </ul>
+        <p class="title">Experience</p>
+        <div class="custom-container">
+          <div class="custom-left">
+            <p>Trainee</p>
+            <p>Singapore Armed Forces</p>
+            <p>[2018]</p>
+          </div>
+          <div class="custom-right">
+            <p>Completed SAF Infantry Sergeant Training</p>
+            <ul>
+              <li>Achieved <span class="slight-emphasis">3SG Rank</span>, led 3 enlisted men</li>
+              <li>Awarded Gold in Fitness & Combat Skills Badge</li>
+            </ul>
+          </div>
+        </div>
+        <div class="v-space"></div>
+        <div class="custom-container">
+          <div class="custom-left">
+            <p>Logistics & Finance Specialist</p>
+            <p>Singapore Armed Forces</p>
+            <p>[2018 – 2019]</p>
+          </div>
+          <div class="custom-right">
+            <p>Planned expediture & filed funding requests for Army Unit</p>
+            <ul>
+              <li>successfully executed 15 military events</li>
+              <li>ensured adherence to government spending regulations</li>
+            </ul>
+          </div>
+        </div>
+        <div class="v-space"></div>
+        <div class="custom-container">
+          <div class="custom-left">
+            <p>Data Clerk</p>
+            <p>Beacon Consulting</p>
+            <p>[04 – 18 Nov 2019]</p>
+          </div>
+          <div class="custom-right">
+            <p>Built system to automatically classify survey data</p>
+            <ul>
+              <li>improved classification time by 50%</li>
+              <li>worked with students to patch missing data</li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="v-space"></div>
+        <div class="custom-container">
+          <div class="custom-left">
+            <p>Private Tutor</p>
+            <p>Lim Family</p>
+            <p>[Oct – Dec 2019]</p>
+          </div>
+          <div class="custom-right">
+            <p>Tutored Calculus & Mechanics at high school level</p>
+            <ul>
+              <li>helped student achieve 93% on exam</li>
+            </ul>
+          </div>
+        </div> -->
+        <p class="title">Projects</p>
+        <p>Created <a href="showcuts.app">showcuts.app</a>, a web app using iCloud’s API to show iOS Shortcuts in a web-friendly format</p>
+        <ul>
+          <li>written using Python, Django, REST, Angular, and ajax</li>
+          <li>open source with documentation</li>
+          <li>200+ contributed Shortcuts </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
