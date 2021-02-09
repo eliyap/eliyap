@@ -33,8 +33,10 @@
     .page {
       width: var(--letter-width);
       height: var(--letter-height);
-      background-color: #f8f8f8;
+      /* hack gradient to make a bi-color stripe */
+      background: linear-gradient(to right, #f8f8f8, #f8f8f8 20%, #f0f0f0 20%, #f0f0f0);
       border: 1px solid black;
+      background-position: 10% 10%;
       /* assume that the printer will do our margins */
     }
 
@@ -137,21 +139,12 @@
     .slight-emphasis {
       font-weight: 400;
     }
-
-    div.dark-side {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: var(--letter-width);
-      height: var(--letter-height);
-      background-color: black;
-    }
   </style>
 </head>
 
 <body>
   <div class="page">
-    <div class="dark-size"></div>
+    <div class="dark-side"></div>
     <div class="row">
       <div>
         <div class="contact-card">
