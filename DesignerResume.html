@@ -8,8 +8,8 @@
     rel="stylesheet">
   <style type="text/css">
     :root {
-      --card-margin: .25in;
-      --page-margin: .5in;
+      --card-margin: .2in;
+      --page-margin: .4in;
       --column-margin: 1rem;
       --letter-height: 11in;
       --letter-width: 8.5in;
@@ -47,7 +47,7 @@
       /* hack gradient to make a bi-color stripe 
       Values are hard-coded to contrast with `.page`'s stripe
       */
-      background: linear-gradient(to left, #f0f0f0, #f0f0f0 61.5%, #f8f8f8 61.5%, #f8f8f8);
+      background: linear-gradient(to left, #f0f0f0, #f0f0f0 58.5%, #f8f8f8 58.5%, #f8f8f8);
       padding: var(--card-margin);
       width: fit-content;
       box-shadow:
@@ -141,6 +141,10 @@
 
     .slight-emphasis {
       font-weight: 400;
+    }
+
+    .flt-right {
+      float: right;
     }
   </style>
 </head>
@@ -280,27 +284,16 @@
           </table>
         </div>
       </div>
-      <div class="availability">
-        <p>Seeking Summer 2021 Internship </p>
-        <p><span class="slight-emphasis">May 13 2021 – August 22 2021</span></p>
-        <p>Locations:</p>
-        <ul>
-          <li>Los Angeles</li>
-          <li>Singapore</li>
-          <li>Remote</li>
-        </ul>
-      </div>
     </div>
     <table class="skills" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
           <td class="left-col">Education</td>
           <td class="right-col">
-            <p class="sub-title">University of Southern California</p>
-            <p>B.S. Computer Engineering & Computer Science</p>
-            <p>Expected Graduation May 2023</p>
+            <p class="sub-title">University of Southern California<span class="flt-right">Los Angeles</span></p>
+            <p>B.S. Computer Engineering & Computer Science<span class="flt-right">May 2023</span></p>
+
             <p>3.97/4.0 GPA</p>
-            <mark>RELEVANT COURSEWORK</mark>
           </td>
         </tr>
         <tr>
@@ -338,14 +331,16 @@
           </td>
         </tr>
         <tr>
-          <td class="left-col">Projects</td>
+          <td class="left-col">Personal Projects</td>
           <td class="right-col">
             <p>
               <a href="https://showcuts.app">showcuts.app</a>
+              <span class="flt-right">Singapore</span>
             </p>
             <ul>
-              <li>constructed a web viewer for iOS Shortcuts</li>
-              <li>acquired 1800+ Shortcuts and 250+ registered users</li>
+              <li><mark>Winter 2019</mark></li>
+              <li>constructed a web viewer for iOS Shortcuts <mark>to learn full stack development</mark></li>
+              <li>acquired 1800+ Shortcuts and 250+ registered users <mark>purpose?</mark></li>
               <li>built with
                 <svg viewBox="0 0 104 36" version="1.1" xmlns="http://www.w3.org/2000/svg" class="icon"
                   xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -358,12 +353,16 @@
                     </g>
                   </g>
                 </svg>
+                <mark>why? python</mark>
               </li>
             </ul>
-            <p><a href="https://apps.apple.com/tt/app/clok-for-toggl/id1520094048?ign-mpt=uo%3D2">Clok</a></p>
+            <p>
+              <a href="https://apps.apple.com/tt/app/clok-for-toggl/id1520094048?ign-mpt=uo%3D2">Clok</a>
+              <span class="flt-right">Los Angeles</span>
+            </p>
             <ul>
               <li><span class="slight-emphasis">shipped</span> a visual app for time tracking data to iOS App Store</li>
-              <li>Swift 5, SwiftUI, Combine & Core Data</li>
+              <li>SwiftUI, Combine & Core Data <mark>move to skills section, under iOS development section</mark></li>
             </ul>
           </td>
         </tr>
@@ -371,7 +370,11 @@
           <td class="left-col">Experience</td>
           <td class="right-col">
             <div class="custom-left">
-              <p>Logistics & Finance Specialist, Singapore Armed Forces, Jan 2018 – Nov 2019</p>
+
+              <p>
+                Singapore Armed Forces<br />
+                Logistics & Finance Specialist, Jan 2018 – Nov 2019<span class="flt-right">Singapore</span>
+              </p>
             </div>
             <div class="custom-right">
               <p>Planned expenditure & funding for Army Unit</p>
