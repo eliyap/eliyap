@@ -44,7 +44,10 @@
       margin-top: var(--card-margin);
       margin-left: var(--card-margin);
       border-radius: var(--card-margin);
-      background-color: #f8f8f8;
+      /* hack gradient to make a bi-color stripe 
+      Values are hard-coded to contrast with `.page`'s stripe
+      */
+      background: linear-gradient(to left, #f8f8f8, #f8f8f8 60.75%, #f0f0f0 60.75%, #f0f0f0);
       padding: var(--card-margin);
       width: fit-content;
       box-shadow:
