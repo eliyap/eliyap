@@ -28,15 +28,6 @@
       height: var(--header-height);
       background-color: #222222;
       position: absolute;
-      display: flex;
-    }
-    .header > .column-left {
-      background-color: #ff9e79;
-      flex: 1;
-      padding-top: var(--column-margin);
-      padding-left: var(--page-margin);
-      padding-right: var(--column-margin);
-      padding-bottom: var(--page-margin);
     }
 
     .name {
@@ -44,10 +35,10 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: black;
+      color: white;
       font-size: 2rem;
-      font-weight: 500;
       padding: .75rem 1.5rem;
+      border: 5px solid white;
     }
 
     div.row {
@@ -56,7 +47,7 @@
       padding-top: var(--header-height);
     }
 
-    div._column-left {
+    div.column-left {
       background-color: rgb(204, 215, 203);
       flex: 1;
       padding-top: var(--column-margin);
@@ -125,12 +116,10 @@
 <body>
   <div class="page">
     <div class="header">
-      <div class="column-left">
-        <div class="name">ELIJAH YAP</div>
-      </div>
+      <div class="name">ELIJAH YAP</div>
     </div>
     <div class="row">
-      <div class="_column-left">
+      <div class="column-left">
         <p class="title">Contact</p>
         <a href="elijah.ming.loong.yap@gmail.com">elijah.ming.loong.yap@gmail.com</a>
         <a href="yap@usc.edu">yap@usc.edu</a>
