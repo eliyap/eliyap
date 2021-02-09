@@ -65,7 +65,7 @@
     .skills .icon {
       height: 20px;
       position: relative;
-      top: 3px;
+      top: 5.5px;
     }
 
     .icon path {
@@ -121,6 +121,13 @@
 
     a {
       color: black;
+      text-decoration: none;
+    }
+
+    /* Add an arrow after links */
+    a::after {
+      content: "↗︎";
+      font-size: small;
     }
 
     table.languages>tbody>tr>td {
@@ -192,13 +199,13 @@
                       </g>
                     </g>
                   </svg>
-                  <span>github.com/eliyap</span>
+                  <a href="https://github.com/eliyap">github.com/eliyap</a>
                   <br />
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26px" height="26px" class="icon">
                     <path
                       d="M 21.125 0 L 4.875 0 C 2.183594 0 0 2.183594 0 4.875 L 0 21.125 C 0 23.816406 2.183594 26 4.875 26 L 21.125 26 C 23.816406 26 26 23.816406 26 21.125 L 26 4.875 C 26 2.183594 23.816406 0 21.125 0 Z M 8.039063 22.070313 L 4 22.070313 L 3.976563 9.976563 L 8.015625 9.976563 Z M 5.917969 8.394531 L 5.894531 8.394531 C 4.574219 8.394531 3.722656 7.484375 3.722656 6.351563 C 3.722656 5.191406 4.601563 4.3125 5.945313 4.3125 C 7.289063 4.3125 8.113281 5.191406 8.140625 6.351563 C 8.140625 7.484375 7.285156 8.394531 5.917969 8.394531 Z M 22.042969 22.070313 L 17.96875 22.070313 L 17.96875 15.5 C 17.96875 13.910156 17.546875 12.828125 16.125 12.828125 C 15.039063 12.828125 14.453125 13.558594 14.171875 14.265625 C 14.066406 14.519531 14.039063 14.867188 14.039063 15.222656 L 14.039063 22.070313 L 9.945313 22.070313 L 9.921875 9.976563 L 14.015625 9.976563 L 14.039063 11.683594 C 14.5625 10.875 15.433594 9.730469 17.519531 9.730469 C 20.105469 9.730469 22.039063 11.417969 22.039063 15.046875 L 22.039063 22.070313 Z" />
                   </svg>
-                  <span>bit.ly/2ObxgqM</span>
+                  <a href="https://bit.ly/2ObxgqM">bit.ly/2ObxgqM</a>
                   <br />
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" class="icon">
                     <title>Asset 1</title>
@@ -211,7 +218,7 @@
                       </g>
                     </g>
                   </svg>
-                  <span>yap@usc.edu</span>
+                  <a href="mailto:yap@usc.edu">yap@usc.edu</a>
                   <br />
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" class="icon">
                     <title>Asset 2</title>
@@ -224,7 +231,7 @@
                       </g>
                     </g>
                   </svg>
-                  <span>213 – 275 – 6438</span>
+                  <a href="tel:213–275–6438">213–275–6438</a>
                   <br />
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" class="icon"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 106.1 106.1"
@@ -270,7 +277,7 @@
                       </g>
                     </g>
                   </svg>
-                  <span>eyap.dev</span>
+                  <a href="https://eyap.dev">eyap.dev</a>
                 </td>
               </tr>
             </tbody>
@@ -279,7 +286,7 @@
       </div>
       <div class="availability">
         <p>Seeking Summer 2021 Internship </p>
-        <p><span class="slight-emphasis">May 13 – August 22</span></p>
+        <p><span class="slight-emphasis">May 13 2021 – August 22 2021</span></p>
         <p>Locations:</p>
         <ul>
           <li>Los Angeles</li>
@@ -295,13 +302,13 @@
           <td class="right-col">
             <p class="sub-title">University of Southern California</p>
             <p>B.S. Computer Engineering & Computer Science</p>
-            <p>Expected Graduation 05/2023</p>
+            <p>Expected Graduation May 2023</p>
             <p>3.97/4.0 GPA</p>
             <mark>RELEVANT COURSEWORK</mark>
           </td>
         </tr>
         <tr>
-          <td class="left-col">Languages</td>
+          <td class="left-col">Skills</td>
           <td class="right-col">
             <table class="languages">
               <thead>
@@ -338,10 +345,12 @@
           <td class="left-col">Projects</td>
           <td class="right-col">
             <p>
-              <a href="showcuts.app">showcuts.app</a>
+              <a href="https://showcuts.app">showcuts.app</a>
             </p>
             <ul>
-              <li>
+              <li>constructed a web viewer for iOS Shortcuts</li>
+              <li>acquired 1800+ Shortcuts and 250+ registered users</li>
+              <li>built with
                 <svg viewBox="0 0 104 36" version="1.1" xmlns="http://www.w3.org/2000/svg" class="icon"
                   xmlns:xlink="http://www.w3.org/1999/xlink">
                   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
@@ -354,10 +363,8 @@
                   </g>
                 </svg>
               </li>
-              <li>constructed a web viewer for iOS Shortcuts</li>
-              <li>acquired 1800+ Shortcuts and 250+ registered users</li>
             </ul>
-            <p>Clok</p>
+            <p><a href="https://apps.apple.com/tt/app/clok-for-toggl/id1520094048?ign-mpt=uo%3D2">Clok</a></p>
             <ul>
               <li><span class="slight-emphasis">shipped</span> a visual app for time tracking data to iOS App Store</li>
               <li>Swift 5, SwiftUI, Combine & Core Data</li>
@@ -368,7 +375,7 @@
           <td class="left-col">Experience</td>
           <td class="right-col">
             <div class="custom-left">
-              <p>Logistics & Finance Specialist, Singapore Armed Forces, 01/2018 – 11/2019</p>
+              <p>Logistics & Finance Specialist, Singapore Armed Forces, Jan 2018 – Nov 2019</p>
             </div>
             <div class="custom-right">
               <p>Planned expenditure & funding for Army Unit</p>
