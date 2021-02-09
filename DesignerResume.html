@@ -92,7 +92,7 @@
       margin: var(--page-margin);
     }
 
-    td {
+    table.skills>tbody>tr>td {
       vertical-align: top;
       padding-bottom: var(--card-margin);
     }
@@ -102,8 +102,7 @@
       padding-right: var(--page-margin);
     }
 
-    tr>.right-col {
-    }
+    tr>.right-col {}
 
     p,
     ul {
@@ -124,14 +123,28 @@
       color: black;
     }
 
+    table.languages>tbody>tr>td {
+      padding-right: var(--card-margin);
+    }
+
     .slight-emphasis {
       font-weight: 400;
+    }
+
+    div.dark-side {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: var(--letter-width);
+      height: var(--letter-height);
+      background-color: black;
     }
   </style>
 </head>
 
 <body>
   <div class="page">
+    <div class="dark-size"></div>
     <div class="row">
       <div>
         <div class="contact-card">
@@ -290,14 +303,35 @@
         <tr>
           <td class="left-col">Languages</td>
           <td class="right-col">
-            <p>iOS Development</p>
-            <p>Web Development</p>
-            <ul>
-              <li>Python, Django, Angular, CSS, SCSS</li>
-              <li>TypeScript</li>
-              <li>maintaining <span class="slight-emphasis">2 websites</span></li>
-            </ul>
-            <div class="v-space"></div>
+            <table class="languages">
+              <thead>
+                <td class="slight-emphasis">Language</td>
+                <td class="slight-emphasis">Proficiency</td>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Swift</td>
+                  <td>★★★★☆</td>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>★★★★☆</td>
+                </tr>
+                <tr>
+                  <td>HTML / CSS</td>
+                  <td>★★★★☆</td>
+                </tr>
+                <tr>
+                  <td>Javascript</td>
+                  <td>★★★☆☆</td>
+                </tr>
+                <tr>
+                  <td>Java</td>
+                  <td>★☆☆☆☆</td>
+                </tr>
+              </tbody>
+            </table>
+            <span></span>
           </td>
         </tr>
         <tr>
