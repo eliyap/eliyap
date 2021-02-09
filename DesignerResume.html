@@ -107,15 +107,14 @@
       padding-right: var(--page-margin);
     }
 
-    tr>.right-col {}
-
     p,
     ul {
       margin-top: 0;
     }
 
-    div.availability {
+    div.education {
       margin-top: var(--page-margin);
+      margin-right: var(--page-margin);
     }
 
     @media print {
@@ -284,21 +283,21 @@
           </table>
         </div>
       </div>
+      <div class="education">
+        <p class="sub-title">
+          University of Southern California
+          <span class="flt-right">Los Angeles</span>
+        </p>
+        <p>B.S. Computer Engineering & Computer Science</p>
+        <p>May 2023</p>
+        <p>3.97/4.0 GPA</p>
+      </div>
     </div>
     <table class="skills" cellpadding="0" cellspacing="0">
       <tbody>
         <tr>
-          <td class="left-col">Education</td>
-          <td class="right-col">
-            <p class="sub-title">University of Southern California<span class="flt-right">Los Angeles</span></p>
-            <p>B.S. Computer Engineering & Computer Science<span class="flt-right">May 2023</span></p>
-
-            <p>3.97/4.0 GPA</p>
-          </td>
-        </tr>
-        <tr>
           <td class="left-col">Skills</td>
-          <td class="right-col">
+          <td>
             <table class="languages">
               <thead>
                 <td class="slight-emphasis">Language</td>
@@ -327,12 +326,41 @@
                 </tr>
               </tbody>
             </table>
-            <span></span>
+          </td>
+          <td>
+            <table class="languages">
+              <thead>
+                <td class="slight-emphasis">Language</td>
+                <td class="slight-emphasis">Proficiency</td>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Swift</td>
+                  <td>★★★★☆</td>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>★★★★☆</td>
+                </tr>
+                <tr>
+                  <td>HTML / CSS</td>
+                  <td>★★★★☆</td>
+                </tr>
+                <tr>
+                  <td>Javascript</td>
+                  <td>★★★☆☆</td>
+                </tr>
+                <tr>
+                  <td>Java</td>
+                  <td>★☆☆☆☆</td>
+                </tr>
+              </tbody>
+            </table>
           </td>
         </tr>
         <tr>
           <td class="left-col">Personal Projects</td>
-          <td class="right-col">
+          <td>
             <p>
               <a href="https://showcuts.app">showcuts.app</a>
               (<a href="https://github.com/eliyap/showcuts">repository</a>)
@@ -363,14 +391,15 @@
             <ul>
               <li>May 2020 – Dec 2020</li>
               <li>desgined a visual app for time tracking data</li>
-              <li><span class="slight-emphasis">shipped</span> to iOS App Store to learn review processes and requirements</li>
+              <li><span class="slight-emphasis">shipped</span> to iOS App Store to learn review processes and
+                requirements</li>
               <li>SwiftUI, Combine & Core Data <mark>move to skills section, under iOS development section</mark></li>
             </ul>
           </td>
         </tr>
         <tr>
           <td class="left-col">Experience</td>
-          <td class="right-col">
+          <td>
             <div class="custom-left">
 
               <p>
