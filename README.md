@@ -1,7 +1,21 @@
 ### Welcome!
 
-I'm Elijah, a Computer Engineering and Computer Science Sophomore at the University of Southern California.
+A bit about me:
+
+-   I'm am American 🇺🇸 who grew up in Singapore 🇸🇬
+-   Computer Science Sophomore at the University of Southern California in Los Angeles
+-   avid SwiftUI learner
 
 
 
-I work on web apps like [Showcuts](https://github.com/eliyap/showcuts) and iOS apps like ![Clok Icon](https://github.com/eliyap/Clok/blob/14Hype/Icon/Icon.png)
+### Projects
+
+iOS apps 
+
+-   [Clok](https://github.com/eliyap/Clok)
+
+
+
+Web Apps:
+
+-    [Showcuts](https://github.com/eliyap/showcuts) 
