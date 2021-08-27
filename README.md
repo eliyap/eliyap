@@ -3,8 +3,8 @@
 A bit about me:
 
 -   I'm am American 🇺🇸 who grew up in Singapore 🇸🇬
--   Computer Science Sophomore at the University of Southern California in Los Angeles
--   avid SwiftUI learner
+-   Computer Science Junior at the University of Southern California in Los Angeles
+-   avid SwiftUI / UIKit learner
 
 
 
@@ -12,6 +12,7 @@ A bit about me:
 
 iOS apps 
 
+-   [PencilMark](https://pencil.md)
 -   [Clok](https://github.com/eliyap/Clok)
 
 
