@@ -11,7 +11,7 @@ A bit about me:
 ### Projects
 
 iOS apps 
-
+-   [Hyperthread](https://hyperthread.org/)
 -   [PencilMark](https://pencil.md)
 -   [Clok](https://github.com/eliyap/Clok)
 
