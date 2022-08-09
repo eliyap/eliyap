@@ -11,7 +11,7 @@ I am
 ### Projects
 
 iOS apps 
--   [Hyperthread](https://hyperthread.org/)
+-   [Hyperthread](https://hyperthread.org/) ([source code](https://github.com/eliyap/Hyperthread))
 -   previously [PencilMark](https://pencil.md)
 -   previously [Clok](https://github.com/eliyap/Clok)
 
