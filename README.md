@@ -1,9 +1,9 @@
 ### Welcome!
 
-A bit about me:
+I am
 
--   I'm am American 🇺🇸 who grew up in Singapore 🇸🇬
--   Computer Science Junior at the University of Southern California in Los Angeles
+-   American 🇺🇸 who grew up in Singapore 🇸🇬
+-   Computer Science Senior at the University of Southern California in Los Angeles
 -   avid SwiftUI / UIKit learner
 
 
@@ -12,8 +12,8 @@ A bit about me:
 
 iOS apps 
 -   [Hyperthread](https://hyperthread.org/)
--   [PencilMark](https://pencil.md)
--   [Clok](https://github.com/eliyap/Clok)
+-   previously [PencilMark](https://pencil.md)
+-   previously [Clok](https://github.com/eliyap/Clok)
 
 
 
