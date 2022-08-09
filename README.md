@@ -5,7 +5,7 @@ I am
 -   American 🇺🇸 who grew up in Singapore 🇸🇬
 -   Computer Science Senior at the University of Southern California in Los Angeles
 -   avid SwiftUI / UIKit learner
-
+-   looking for iOS roles! ([Resume](https://tinyurl.com/eliyap-resume))
 
 
 ### Projects
